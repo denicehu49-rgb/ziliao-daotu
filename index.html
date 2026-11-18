@@ -30,18 +30,33 @@
 <ul class="mmap"><li>
 <span class="nd root">加减乘</span>
 <ul>
-<li><span class="nd">尾数法</span><ul><li><span class="eq">精算，选项尾数不同</span></li></ul></li>
-<li><span class="nd">划线加减</span><ul><li><span class="eq">多位数加减</span></li></ul></li>
-<li><span class="nd">高位叠加</span><ul><li><span class="eq">多个数加和</span></li></ul></li>
-<li><span class="nd">高位乘法</span><ul><li><span class="eq">多位数 × 一位数</span></li></ul></li>
+<li><span class="nd">尾数法</span><ul>
+<li><span class="eq">精算，尾数不同</span></li>
+<li><span class="eq">算尾数，看选项</span></li>
+<li><span class="eq">判断正负</span></li>
+</ul></li>
+<li><span class="nd">划线加减</span><ul>
+<li><span class="eq">精算、估算</span></li>
+<li><span class="eq">截位划线，算前看后</span></li>
+<li><span class="eq">位数不变：写 N+、N−</span></li>
+</ul></li>
+<li><span class="nd">高位叠加</span><ul>
+<li><span class="eq">多个数加和</span></li>
+<li><span class="eq">高位加起，进位另加</span></li>
+<li><span class="eq">两加一估：计算估 5，范围估 10</span></li>
+</ul></li>
+<li><span class="nd">高位乘法</span><ul><li><span class="eq">多位数 × 一位数：高位乘起，最后叠加</span></li></ul></li>
 <li><span class="nd">特殊数字</span><ul>
 <li><span class="eq">×1.5 = 本身 + 一半</span></li>
 <li><span class="eq">×1.1 = 错位相加</span></li>
 <li><span class="eq">×0.9 = 错位相减</span></li>
-<li><span class="eq">百分数 ↔ 分数</span></li>
+<li><span class="eq">百化分：百分数 ↔ 分数，乘除互化</span></li>
 </ul></li>
-<li><span class="nd">拆分</span><ul><li><span class="eq">因子近整数，或选项很近</span></li></ul></li>
-<li><span class="nd">口诀</span><ul><li><span class="eq">两位数 × 两位数：前前后后</span></li></ul></li>
+<li><span class="nd">拆分</span><ul>
+<li><span class="eq">因子近整数，或选项差距小</span></li>
+<li><span class="eq">先凑整，再看误差</span></li>
+</ul></li>
+<li><span class="nd">口诀</span><ul><li><span class="eq">两位数 × 两位数：前前后后，里里外外</span></li></ul></li>
 </ul>
 </li></ul>
 </section>
@@ -51,11 +66,13 @@
 <span class="nd root">除法</span>
 <ul>
 <li><span class="nd">截位直除</span><ul>
-<li><span class="eq">差距大：截 2 位</span></li>
-<li><span class="eq">差距小：截 3 位</span></li>
-<li><span class="eq">差距极小：截 4 位</span></li>
-<li><span class="eq">一步除法：只截分母</span></li>
-<li><span class="eq">选项差 10 倍、100 倍：先看量级</span></li>
+<li><span class="eq">差距大，首位不同：截 2 位</span></li>
+<li><span class="eq">首位同、第二位差 &gt; 首位：截 3 位</span></li>
+<li><span class="eq">临界值（如 59 与 61）：截 3 位</span></li>
+<li><span class="eq">第二位差 ≤ 首位，或前两位同：截 4 位</span></li>
+<li><span class="eq">一步除法：截分母，直除</span></li>
+<li><span class="eq">多步除法：截分子、分母，约分</span></li>
+<li><span class="eq">选项差约 10 倍、100 倍：先看量级</span></li>
 </ul></li>
 <li><span class="nd">包子</span><ul><li><span class="eq">分母的 1% 为 1 个包子，看分子能买几个</span></li></ul></li>
 <li><span class="nd">等比修正</span><ul><li><span class="eq">分子、分母同倍加减，分数值不变</span></li></ul></li>
@@ -77,10 +94,17 @@
 <li><span class="nd">给现期、增长量</span><ul><li><span class="eq">基期 = 现期 − 增长量</span></li></ul></li>
 <li><span class="nd">给现期、r</span><ul>
 <li><span class="eq">基期 = 现期 / (1+r)</span></li>
+<li><span class="eq">差距大：直除 2 位</span></li>
+<li><span class="eq">差距小：直除 3 位</span></li>
 <li><span class="eq">|r|≤5%：A/(1+r) ≈ A(1−r)</span></li>
 <li><span class="eq">|r|≤5%：A/(1−r) ≈ A(1+r)</span></li>
+<li><span class="eq">差距极小：直除 4 位</span></li>
 </ul></li>
-<li><span class="nd">和差</span><ul><li><span class="eq">A/(1+a) ± B/(1+b)</span></li></ul></li>
+<li><span class="nd">和差</span><ul>
+<li><span class="eq">A/(1+a) ± B/(1+b)</span></li>
+<li><span class="eq">算一半，看一半</span></li>
+<li><span class="eq">等比修正，分母化同</span></li>
+</ul></li>
 <li><span class="nd">复杂·给主体 r</span><ul><li><span class="eq">部分现期 = 总体 × 比重</span></li><li><span class="eq">基期 = 部分现期 / (1+r)</span></li></ul></li>
 <li><span class="nd">复杂·不给主体 r</span><ul>
 <li><span class="eq">部分基期 = 总体基期 × 基期比重</span></li>
@@ -89,8 +113,15 @@
 </ul></li>
 <li><span class="nd">比较</span><ul>
 <li><span class="eq">问过去谁大</span></li>
-<li><span class="nd">给现期、增长量</span><ul><li><span class="eq">基期 = 现期 − 增长量</span></li></ul></li>
-<li><span class="nd">给现期、r</span><ul><li><span class="eq">现期大且 r 小 → 基期大</span></li></ul></li>
+<li><span class="nd">给现期、增长量</span><ul>
+<li><span class="eq">基期 = 现期 − 增长量</span></li>
+<li><span class="eq">找现期最大做参照</span></li>
+</ul></li>
+<li><span class="nd">给现期、r</span><ul>
+<li><span class="eq">基期 = 现期 / (1+r)</span></li>
+<li><span class="eq">现期大、r 小 → 基期大</span></li>
+<li><span class="eq">再比：分数比较</span></li>
+</ul></li>
 </ul></li>
 </ul>
 </li></ul>
@@ -113,15 +144,21 @@
 </ul></li>
 </ul></li>
 <li><span class="nd">保持增量</span><ul>
-<li><span class="eq">现期 = 基期 + 增长量 × n</span></li>
-<li><span class="eq">五年和 S5 = 5 × 中项</span></li>
+<li><span class="eq">现期 = 基期 + 增长量</span></li>
+<li><span class="eq">等差：S5 = 5 × 中项</span></li>
+<li><span class="eq">非等差：先按等差求和，再修误差</span></li>
 <li><span class="eq">差距 = 原差距 + 增长量差 × n</span></li>
 </ul></li>
 <li><span class="nd">保持 r</span><ul>
 <li><span class="eq">现期 = 基期 × (1+r)</span></li>
 <li><span class="eq">n 年：现期 = 基期 × (1+r)^n</span></li>
-<li><span class="nd">不给 r·给增量</span><ul><li><span class="eq">r&gt;0：下一年增量更大</span></li></ul></li>
-<li><span class="nd">不给 r·给现期基期</span><ul><li><span class="eq">倍数明显：乘倍数</span></li></ul></li>
+<li><span class="eq">选项近：特殊数字，拆分</span></li>
+<li><span class="eq">r&lt;0：减少量变小</span></li>
+<li><span class="nd">不给 r·给增量</span><ul><li><span class="eq">按增量推：结果偏小，选大</span></li></ul></li>
+<li><span class="nd">不给 r·给现期基期</span><ul>
+<li><span class="eq">倍数明显：乘倍数</span></li>
+<li><span class="eq">不明显：按增量推，结果偏小选大</span></li>
+</ul></li>
 </ul></li>
 </ul>
 </li></ul>
@@ -137,23 +174,45 @@
 <li><span class="eq">增长量 = 基期 × r</span></li>
 <li><span class="eq">每增 N 个百分点 = 基期 × N%</span></li>
 </ul></li>
-<li><span class="nd">给现期、基期</span><ul><li><span class="eq">增长量 = 现期 − 基期</span></li></ul></li>
-<li><span class="nd">年均</span><ul><li><span class="eq">年均增长量 = (现期 − 基期) / 年份差</span></li></ul></li>
+<li><span class="nd">给现期、基期</span><ul>
+<li><span class="eq">增长量 = 现期 − 基期</span></li>
+<li><span class="eq">多个数：先减再加，或先加再减</span></li>
+<li><span class="eq">时间段首年有数，必须验证</span></li>
+</ul></li>
+<li><span class="nd">年均</span><ul>
+<li><span class="eq">年均增长量 = (现期 − 基期) / 年份差</span></li>
+<li><span class="eq">普通：基期不前推</span></li>
+<li><span class="eq">江苏：基期前推一年</span></li>
+<li><span class="eq">五年规划：年份差 = 5，基期前推一年</span></li>
+</ul></li>
 <li><span class="nd">给现期、r</span><ul>
 <li><span class="eq">增长量 = 现期 / (1+r) × r</span></li>
-<li><span class="eq">|r|≤5%：≈ 现期 × r</span></li>
+<li><span class="eq">|r|≤5% 且选项差距大：≈ 现期 × r</span></li>
+<li><span class="eq">估增量偏大，估减量偏小</span></li>
 <li><span class="eq">|r|=1/n：增量 = 现期 / (n+1)</span></li>
 <li><span class="eq">|r|=1/n：减量 = 现期 / (n−1)</span></li>
+<li><span class="eq">误差 = 基期 × r 的差值</span></li>
 </ul></li>
-<li><span class="nd">混合</span><ul><li><span class="eq">总体增量 = Σ 部分增量</span></li></ul></li>
-<li><span class="nd">倍数</span><ul><li><span class="eq">|a−b|≤10 个百分点：增量比 ≈ 现期比 × r 比</span></li></ul></li>
+<li><span class="nd">混合</span><ul>
+<li><span class="eq">总体增量 = 部分增量 + 部分增量 + …</span></li>
+<li><span class="eq">有升有降：先抵消</span></li>
+</ul></li>
+<li><span class="nd">倍数</span><ul>
+<li><span class="eq">|a−b|≤10 个百分点：A增量/B增量 ≈ (A/B)×(a/b)</span></li>
+<li><span class="eq">|a−b|&gt;10 个百分点：分别百化分，再比倍数</span></li>
+</ul></li>
 </ul></li>
 <li><span class="nd">比较</span><ul>
-<li><span class="eq">问谁增得最多</span></li>
+<li><span class="eq">问谁增得最多、最少</span></li>
+<li><span class="eq">增长量 = 现期 − 基期</span></li>
 <li><span class="eq">柱：高度差。折线：斜率</span></li>
+<li><span class="eq">趋势：先正负，再大小，再比例</span></li>
 <li><span class="eq">现期大且 r 大 → 增量大</span></li>
+<li><span class="eq">一大一小：百化分后再比</span></li>
 <li><span class="eq">下降越多，增量越小</span></li>
+<li><span class="eq">变化量：比 |增长量|</span></li>
 <li><span class="eq">贡献率 = 部分增量 / 总体增量</span></li>
+<li><span class="eq">同一总体：直接比部分增量</span></li>
 </ul></li>
 </ul>
 </li></ul>
@@ -177,8 +236,9 @@
 <li><span class="eq">r = 增长量 / (现期 − 增长量)</span></li>
 </ul></li>
 <li><span class="nd">特定·给现期、基期</span><ul>
-<li><span class="eq">r&gt;10% → 现期 &gt; 1.1 × 基期</span></li>
-<li><span class="eq">r&gt;50% → 现期 &gt; 1.5 × 基期</span></li>
+<li><span class="eq">r&gt;10% → 现期 &gt; 1.1 × 基期，错位相加</span></li>
+<li><span class="eq">r&gt;50% → 现期 &gt; 1.5 × 基期，本身 + 一半</span></li>
+<li><span class="eq">或看前三位，口算增长量</span></li>
 </ul></li>
 <li><span class="nd">特定·给现期、增量</span><ul>
 <li><span class="eq">(n+1) × 增长量 &gt; 现期</span></li>
@@ -191,6 +251,8 @@
 <li><span class="eq">倍数差明显：倍数大 → r 大</span></li>
 <li><span class="eq">不明显：增长量大、基期小 → r 大</span></li>
 <li><span class="eq">再比：增长量 / 基期</span></li>
+<li><span class="eq">柱：高度差占柱子比例越大，r 越大</span></li>
+<li><span class="eq">只用于比较</span></li>
 </ul></li>
 <li><span class="nd">给现期、增量</span><ul>
 <li><span class="eq">比 增长量 / 现期</span></li>
@@ -223,7 +285,11 @@
 <li><span class="eq">是几倍 = r间 + 1</span></li>
 <li><span class="eq">多几倍 = r间</span></li>
 </ul></li>
-<li><span class="nd">间隔基期</span><ul><li><span class="eq">基期 = 现期 / (1+r间)</span></li></ul></li>
+<li><span class="nd">间隔基期</span><ul>
+<li><span class="eq">差距大：r间 估到十位</span></li>
+<li><span class="eq">差距小：r间 估到个位</span></li>
+<li><span class="eq">基期 = 现期 / (1+r间)</span></li>
+</ul></li>
 <li><span class="nd">间隔现期</span><ul><li><span class="eq">现期 = 基期 × (1+r间)</span></li></ul></li>
 <li><span class="nd">间隔增量</span><ul><li><span class="eq">先 r间，再按增长量百化分</span></li></ul></li>
 <li><span class="nd">间隔多年</span><ul>
@@ -255,10 +321,12 @@
 <li><span class="nd">乘积</span><ul>
 <li><span class="eq">A = B × C</span></li>
 <li><span class="eq">rA = rB + rC + rB×rC</span></li>
-<li><span class="eq">rC = 0 → rA = rB</span></li>
+<li><span class="eq">rB = 0 → rA = rC</span></li>
 <li><span class="eq">总额 = 单价 × 数量</span></li>
 <li><span class="eq">产量 = 单产 × 面积</span></li>
 <li><span class="eq">部分 = 总体 × 比重</span></li>
+<li><span class="eq">城镇收入 = 农村收入 × 倍差</span></li>
+<li><span class="eq">不变、相同：对应的 r = 0</span></li>
 </ul></li>
 </ul>
 </li></ul>
@@ -269,23 +337,39 @@
 <span class="nd root">混合增长率</span>
 <ul>
 <li><span class="nd">识别</span><ul>
-<li><span class="eq">部分 + 部分 = 总体</span></li>
 <li><span class="eq">进出口 = 进口 + 出口</span></li>
-<li><span class="eq">顺差 = 出口 − 进口</span></li>
+<li><span class="eq">全国 = 城镇 + 农村</span></li>
+<li><span class="eq">邮电 = 邮政 + 电信</span></li>
+<li><span class="eq">本外币 = 人民币 + 外币</span></li>
+<li><span class="eq">全年 = 1–11月 + 12月</span></li>
+<li><span class="eq">一季度 = 1–2月 + 3月</span></li>
+<li><span class="eq">出口 = 进口 + 顺差</span></li>
+<li><span class="eq">进口 = 出口 + 逆差</span></li>
+<li><span class="eq">收入 = 支出 + 盈余</span></li>
 <li><span class="eq">总体 = A + 非 A</span></li>
 </ul></li>
 <li><span class="nd">居中</span><ul><li><span class="eq">r小 &lt; r总 &lt; r大</span></li></ul></li>
-<li><span class="nd">偏向</span><ul><li><span class="eq">靠近基期量大的一侧</span></li></ul></li>
-<li><span class="nd">线段</span><ul><li><span class="eq">距离与基期量成反比</span></li></ul></li>
+<li><span class="nd">偏向</span><ul><li><span class="eq">偏向基期量大的一侧</span></li></ul></li>
+<li><span class="nd">线段</span><ul>
+<li><span class="eq">距离与量成反比</span></li>
+<li><span class="eq">距离 = 部分 r − 总体 r</span></li>
+<li><span class="eq">量 = 部分基期</span></li>
+</ul></li>
 <li><span class="nd">三角杀</span><ul>
 <li><span class="eq">Δ = r大 − r小</span></li>
 <li><span class="eq">量比 = 基期大 / 基期小</span></li>
-<li><span class="eq">混合到较大 r 的距离 = Δ / (量比 + 1)</span></li>
+<li><span class="eq">大：除。小：乘。混合：÷ (量比+1)</span></li>
+<li><span class="eq">求部分 r：距离对混合 r</span></li>
+<li><span class="eq">求混合 r：距离对较大的部分 r</span></li>
 </ul></li>
-<li><span class="nd">反例</span><ul><li><span class="eq">两 r 差大：必须用基期量</span></li></ul></li>
+<li><span class="nd">反例</span><ul><li><span class="eq">部分 r 差大：口诀、线段、三角杀都用基期</span></li></ul></li>
 <li><span class="nd">当月·累计</span><ul>
 <li><span class="eq">当月 r &gt; 累计 r → 累计 r 上升</span></li>
 <li><span class="eq">当月 r &lt; 累计 r → 累计 r 下降</span></li>
+</ul></li>
+<li><span class="nd">多者</span><ul>
+<li><span class="eq">仍居中、偏向</span></li>
+<li><span class="eq">拆成两两。先等量，先接近的 r</span></li>
 </ul></li>
 </ul>
 </li></ul>
@@ -296,18 +380,25 @@
 <span class="nd root">比重</span>
 <ul>
 <li><span class="nd">识别</span><ul>
-<li><span class="eq">……占……</span></li>
+<li><span class="eq">……占……的比重</span></li>
 <li><span class="eq">利润率 = 利润 / 收入</span></li>
-<li><span class="eq">产销率 = 销量 / 产量</span></li>
 <li><span class="eq">贡献率 = 部分增量 / 总体增量</span></li>
+<li><span class="eq">亏损面 = 亏损企业 / 全部企业</span></li>
+<li><span class="eq">城镇化率 = 城镇人口 / 总人口</span></li>
+<li><span class="eq">产销率 = 销量 / 产量</span></li>
 </ul></li>
 <li><span class="nd">现期</span><ul>
 <li><span class="eq">A 占 B = A / B</span></li>
 <li><span class="eq">A 中 B = B / A</span></li>
-<li><span class="eq">部分 = 总体 × 比重</span></li>
-<li><span class="eq">总体 = 部分 / 比重</span></li>
 <li><span class="eq">同总体：比重差 = 部分差 / 总体</span></li>
-<li><span class="eq">A占B = m，B占C = n → A占C = m×n</span></li>
+<li><span class="eq">不同总体：分别求，再相减</span></li>
+<li><span class="eq">超过某比重的个数：总体 × 该比重，再数大于乘积的</span></li>
+<li><span class="eq">饼图：部分/总体 = 1/2、1/3、1/4</span></li>
+<li><span class="eq">饼图：部分/部分 = 2 倍、3 倍</span></li>
+<li><span class="eq">类比：部分是几倍，比重是几倍</span></li>
+<li><span class="eq">A占B = m，B占C = n → A占C = m × n</span></li>
+<li><span class="eq">总体 = 部分 / 比重</span></li>
+<li><span class="eq">部分 = 总体 × 比重</span></li>
 </ul></li>
 <li><span class="nd">基期</span><ul>
 <li><span class="eq">给增量：(部分−部分增量) / (总体−总体增量)</span></li>
@@ -317,6 +408,7 @@
 <li><span class="eq">a &gt; b → 比重上升</span></li>
 <li><span class="eq">a &lt; b → 比重下降</span></li>
 <li><span class="eq">比重上升 → a &gt; b</span></li>
+<li><span class="eq">比重下降 → a &lt; b</span></li>
 <li><span class="eq">两期比重差 = A/B × (a−b)/(1+a)</span></li>
 </ul></li>
 </ul>
@@ -334,7 +426,11 @@
 <li><span class="nd">现期</span><ul>
 <li><span class="eq">平均数 = 后 / 前</span></li>
 <li><span class="eq">总数 = 平均数 × 个数</span></li>
-<li><span class="eq">比大小：分数比较</span></li>
+<li><span class="eq">比大小：分数比较，看量级</span></li>
+<li><span class="eq">超过某值的个数：注意量级</span></li>
+<li><span class="eq">月均、日均：谁好除先除谁</span></li>
+<li><span class="eq">多个数：凑整或高位叠加，再除</span></li>
+<li><span class="eq">类比：分子是几倍，平均数是几倍</span></li>
 </ul></li>
 <li><span class="nd">基期</span><ul>
 <li><span class="eq">给增量：(分子−分子增量) / (分母−分母增量)</span></li>
@@ -355,24 +451,26 @@
 <span class="nd root">倍数与比例</span>
 <ul>
 <li><span class="nd">现期</span><ul>
-<li><span class="eq">是几倍 = A / B</span></li>
+<li><span class="eq">A 是 B 的几倍 = A / B</span></li>
+<li><span class="eq">A 为 B 的几倍 = A / B</span></li>
+<li><span class="eq">A 与 B 的比例 = A : B</span></li>
 <li><span class="eq">多几倍 = A/B − 1</span></li>
-<li><span class="eq">多 N 倍以上：(A/B) − 1 ≥ N</span></li>
-<li><span class="eq">超过 N 倍：A/B &gt; N</span></li>
-<li><span class="eq">超过 N 倍 → A &gt; N × B</span></li>
+<li><span class="eq">多 N 倍以上：(A/B) − 1 &gt; N</span></li>
+<li><span class="eq">超过 N 倍：A/B &gt; N → A &gt; N × B</span></li>
 </ul></li>
 <li><span class="nd">平均数的倍数</span><ul>
-<li><span class="eq">(A1/B1) / (A2/B2)</span></li>
-<li><span class="eq">= (A1/A2) / (B1/B2)</span></li>
+<li><span class="eq">比例倍数 = 分子倍数 / 分母倍数</span></li>
+<li><span class="eq">(A1/B1) / (A2/B2) = (A1/A2) / (B1/B2)</span></li>
 </ul></li>
 <li><span class="nd">基期</span><ul>
-<li><span class="eq">给增量：(分子−增量) / (分母−增量)</span></li>
+<li><span class="eq">给增量：(部分−部分增量) / (总体−总体增量)</span></li>
 <li><span class="eq">给 r：A/B × (1+b)/(1+a)</span></li>
 </ul></li>
 <li><span class="nd">混合</span><ul>
-<li><span class="eq">(A+B+…) / (D+E+…)</span></li>
-<li><span class="eq">居中，偏向分母量大的一侧</span></li>
+<li><span class="eq">(A+B+C+…) / (D+E+F+…)</span></li>
 <li><span class="eq">当月 &gt; 累计月均 → 当月 &gt; 前几月月均</span></li>
+<li><span class="eq">当月 &lt; 累计月均 → 当月 &lt; 前几月月均</span></li>
+<li><span class="eq">求人数比：距离与量成反比，量是人数</span></li>
 </ul></li>
 </ul>
 </li></ul>
@@ -385,22 +483,34 @@
 <li><span class="nd">量</span><ul>
 <li><span class="eq">A + 非 A = 总体</span></li>
 <li><span class="eq">非 A = 总体 − A</span></li>
-<li><span class="eq">增量同样相加</span></li>
+<li><span class="eq">A 增量 + 非 A 增量 = 总体增量</span></li>
 </ul></li>
-<li><span class="nd">率</span><ul><li><span class="eq">总体 r：混合，居中</span></li></ul></li>
-<li><span class="nd">比例</span><ul>
-<li><span class="eq">A 比重 + 非 A 比重 = 1</span></li>
-<li><span class="eq">占比 &gt; 50% → A &gt; 非 A</span></li>
-<li><span class="eq">占比 &gt; 66.7% → A &gt; 2 × 非 A</span></li>
-<li><span class="eq">占比 &gt; 75% → A &gt; 3 × 非 A</span></li>
+<li><span class="nd">率</span><ul>
+<li><span class="eq">混合：居中、偏向</span></li>
+<li><span class="eq">线段：量之比 = 基期之比</span></li>
+</ul></li>
+<li><span class="nd">比重</span><ul>
+<li><span class="eq">线段：量之比 = 总体之比</span></li>
+<li><span class="eq">占比 50% → A = 非 A</span></li>
+<li><span class="eq">占比 66.7% → A = 2 × 非 A</span></li>
+<li><span class="eq">占比 75% → A = 3 × 非 A</span></li>
+<li><span class="eq">倍数越大，占比越大</span></li>
+</ul></li>
+<li><span class="nd">平均数</span><ul>
+<li><span class="eq">混合平均数：居中、偏向</span></li>
+<li><span class="eq">线段：量之比 = 分母之比</span></li>
+</ul></li>
+<li><span class="nd">倍数</span><ul>
 <li><span class="eq">A = 2 × 非 A → 占比 ≈ 66.7%</span></li>
 <li><span class="eq">A = 3 × 非 A → 占比 = 75%</span></li>
 </ul></li>
 <li><span class="nd">综合</span><ul>
-<li><span class="eq">先：两期比例、混合、A 与非 A</span></li>
-<li><span class="eq">均、都、逐年、首超：易错</span></li>
+<li><span class="eq">先看：两期比例、混合范围、A 与非 A</span></li>
+<li><span class="eq">算非 A：先算 A</span></li>
+<li><span class="eq">均、都、同一个、逐年、首超：易错</span></li>
 <li><span class="eq">约：易对</span></li>
 <li><span class="eq">多几倍 ≠ 是几倍</span></li>
+<li><span class="eq">日均、月均：要除天数、月数</span></li>
 <li><span class="eq">顺序：找数 → 加减 → 一步除 → 增量 → r → 基期或两期比例</span></li>
 </ul></li>
 </ul>
